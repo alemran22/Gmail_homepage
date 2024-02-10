@@ -309,61 +309,92 @@
 }
 
 /* message */
-.message{
+.message {
   display: flex;
   justify-content: space-between;
   gap: 15px;
   margin-top: 15px;
   width: 900px;
   border-radius: 20px;
+  background-color: #d0e1ea;
 }
-
+/* message nav */
 .message .main_message .message_nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 880px;
-  background-color: #96bbd8;
-  padding: 5px 10px;
+  height: 40px;
+  margin: 7px 10px;
 }
-.message .main_message .message_nav button{
+.message .main_message .message_nav button {
   border: none;
   background: transparent;
   cursor: pointer;
-  
 }
-.message .main_message .message_nav .dual_img{
+.message .main_message .message_nav button img {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.message .main_message .message_nav button img:hover {
+  background-color: #6a7882;
+}
+
+.message .main_message .message_nav .dual_img {
   display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+  gap: 0px;
+  align-items: center;
 }
-.message .main_message .message_nav .left{
+
+.message .main_message .message_nav .left {
   display: flex;
   align-items: center;
 }
-.message .main_message .message_nav .left img {
-  height: 15px;
-  width: 15px;
+.message .main_message .message_nav .right {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
 }
-.message .main_message .message_nav .right{
+.message .main_message .message_nav .right .para {
+  color: #5e6267;
+  margin-right: 20px;
+}
+.message .main_message .message_nav .right .wide_img {
+  height: 33px;
+  width: 38px;
+}
+/* message menu */
+
+.message_menu {
   display: flex;
   align-items: center;
 }
-.message .main_message .message_nav .right img{
-  height: 15px;
-  width: 15px;
+.message_menu div {
+  display: flex;
+  align-items: center;
+  width: 251px;
+  height: 50px;
+  cursor: pointer;
 }
-.message .main_message .message_nav .right .wide_img{
-  height: 15px;
-  width: 25px;
+.message_menu div:hover {
+  background-color: #dde2e6;
 }
-
-
+.message_menu div img {
+  height: 20px;
+  width: 20px;
+  margin: 0 16px;
+}
 
 /* sidebar */
-.message .sidebar{
+.message .sidebar {
   display: flex;
   flex-direction: column;
 }
-.message .sidebar img{
+.message .sidebar img {
   height: 25px;
   width: 25px;
   margin: 15px 8px;
