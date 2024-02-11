@@ -7,11 +7,10 @@
 .main_section {
   display: flex;
   flex-direction: row;
-  gap: 15px;
 }
 /* icon section */
 .icon {
-  width: 85px;
+  width: 80px;
   height: 100vh;
   background-color: #eaf1fb;
   display: flex;
@@ -323,7 +322,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 880px;
+  width: 872px;
   height: 40px;
   margin: 7px 10px;
 }
@@ -389,13 +388,54 @@
   margin: 0 16px;
 }
 
+/* message items */
+.message_items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.message_items .left {
+  width: 250px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.message_items .left .icons {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.message_items .left .icons img {
+  height: 32px;
+  width: 32px;
+  padding: 7px;
+  border-radius: 50%;
+}
+.message_items .right {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 630px;
+}
+
+.message_items .right div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* sidebar */
 .message .sidebar {
   display: flex;
   flex-direction: column;
 }
 .message .sidebar img {
-  height: 25px;
-  width: 25px;
-  margin: 15px 8px;
+  height: 35px;
+  width: 35px;
+  margin: 15px 0px;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.message .sidebar img:hover {
+  background-color: antiquewhite;
 }
