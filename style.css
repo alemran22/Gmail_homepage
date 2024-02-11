@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+body {
+  background-color: #f6f8fc;
+}
 .main_section {
   display: flex;
   flex-direction: row;
@@ -33,7 +36,7 @@
 }
 
 .icon button:hover {
-  background-color: #3e6c9d;
+  background-color: #DADCE0;
   padding: 6px 10px;
   border-radius: 50%;
 }
@@ -125,8 +128,11 @@
   width: 220px;
 }
 .compose .others button:hover {
-  background-color: #96bbd8;
+  background-color: #eaebef;
   cursor: pointer;
+}
+.compose .others button:active {
+  background-color: #d3e3fd;
 }
 
 .compose .others button img {
@@ -224,10 +230,12 @@
   align-items: center;
   height: 48px;
   width: 600px;
-  background-color: #c2e7ff;
+  background-color: #eaf1fb;
   border-radius: 20px;
 }
-
+.content_total .content .header_search:hover {
+  background: whitesmoke;
+}
 .content_total .content .header_search .header-search-input {
   outline: none;
   border: none;
@@ -235,6 +243,7 @@
   font-size: 18px;
   padding: 7px;
   font-weight: 500;
+  width: 80%;
 }
 .header_search .btn {
   background: transparent;
@@ -259,7 +268,7 @@
   align-items: center;
   gap: 7px;
   height: 48px;
-  background-color: #c2e7ff;
+  background-color: #eaf1fb;
   margin-left: 15px;
   padding: 5px 15px;
   border: none;
@@ -269,7 +278,7 @@
 }
 .content_total .content .header_active button:hover {
   cursor: pointer;
-  background-color: #637682;
+  background-color: #e8eaed;
   color: white;
 }
 .content_total .content .header_active button img {
@@ -293,7 +302,7 @@
 }
 .content_total .content .profile_side button:hover {
   cursor: pointer;
-  background-color: #637682;
+  background-color: #e8eaed;
   color: white;
 }
 
@@ -315,7 +324,8 @@
   margin-top: 15px;
   width: 900px;
   border-radius: 20px;
-  background-color: #d0e1ea;
+  background-color: #ffffff;
+  padding: 5px 6px 10px 0;
 }
 /* message nav */
 .message .main_message .message_nav {
@@ -338,7 +348,7 @@
   border-radius: 50%;
 }
 .message .main_message .message_nav button img:hover {
-  background-color: #6a7882;
+  background-color: #e8eaed;
 }
 
 .message .main_message .message_nav .dual_img {
@@ -410,6 +420,9 @@
   padding: 7px;
   border-radius: 50%;
 }
+.message_items .left .icons img:hover {
+  background-color: #F2F2F2;
+}
 .message_items .right {
   display: flex;
   flex-direction: column;
@@ -421,21 +434,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 /* sidebar */
 .message .sidebar {
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
 .message .sidebar img {
   height: 35px;
   width: 35px;
-  margin: 15px 0px;
   padding: 6px;
-  border-radius: 50%;
+  
   cursor: pointer;
 }
 .message .sidebar img:hover {
   background-color: antiquewhite;
+  border-radius: 100%;
 }
