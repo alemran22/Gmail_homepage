@@ -409,42 +409,6 @@ body {
 }
 
 /* message items */
-/* .message_items {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-.message_items .left {
-  width: 250px;
-  margin-left: 8px;
-  cursor: pointer;
-}
-.message_items .left .icons {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-}
-.message_items .left .icons img {
-  height: 32px;
-  width: 32px;
-  padding: 7px;
-  border-radius: 50%;
-}
-.message_items .left .icons img:hover {
-  background-color: #f2f2f2;
-}
-.message_items .right {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  width: 630px;
-}
-.message_items .right div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-} */
 
 .message .message_items .inbox {
   display: flex;
