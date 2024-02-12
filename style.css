@@ -277,7 +277,7 @@ body {
 }
 .content_total .content .header_active button:hover {
   cursor: pointer;
-  background-color: #e8eaed;
+  background-color: #878a8f;
   color: white;
 }
 .content_total .content .header_active button img {
@@ -341,8 +341,8 @@ body {
   cursor: pointer;
 }
 .message .main_message .message_nav button img {
-  height: 30px;
-  width: 30px;
+  height: 26px;
+  width: 26px;
   padding: 5px;
   border-radius: 50%;
 }
@@ -352,10 +352,19 @@ body {
 
 .message .main_message .message_nav .dual_img {
   display: flex;
-  justify-content: space-around;
-  margin-right: 10px;
+  justify-content: space-evenly;
+  margin-right: 0 15px;
   gap: 0px;
   align-items: center;
+}
+.message .main_message .message_nav .dual_img input {
+  margin-left: 4px;
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+.message .main_message .message_nav .dual_img input:hover {
+  background-color: #d9d9d9;
 }
 
 .message .main_message .message_nav .left {
@@ -365,15 +374,16 @@ body {
 .message .main_message .message_nav .right {
   display: flex;
   align-items: center;
-  margin-right: 5px;
+
+  gap: 20px;
 }
 .message .main_message .message_nav .right .para {
   color: #5e6267;
   margin-right: 20px;
 }
 .message .main_message .message_nav .right .wide_img {
-  height: 33px;
-  width: 38px;
+  height: 32px;
+  width: 32px;
 }
 /* message menu */
 
@@ -390,15 +400,16 @@ body {
 }
 .message_menu div:hover {
   background-color: #dde2e6;
+  border-bottom: 3px solid #0b57d0;
 }
 .message_menu div img {
-  height: 20px;
-  width: 20px;
-  margin: 0 16px;
+  height: 17px;
+  width: 17px;
+  margin: 0 13px;
 }
 
 /* message items */
-.message_items {
+/* .message_items {
   display: flex;
   align-items: center;
   width: 100%;
@@ -433,8 +444,40 @@ body {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+} */
+
+.message .message_items .inbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #efeeee;
+  padding: 6px 10px;
+}
+.message .message_items .inbox:hover {
+  background-color: #F2F6FC;
+  cursor: pointer;
+}
+.message .message_items .inbox:active {
+  background-color: #f2f6fc;
 }
 
+.message .message_items .inbox .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6px;
+  margin-left: 4px;
+}
+.message .message_items .inbox .input {
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+.message .message_items .inbox img {
+  height: 21px;
+  width: 21px;
+  padding: 4px;
+}
 /* sidebar */
 .message .sidebar {
   display: flex;
