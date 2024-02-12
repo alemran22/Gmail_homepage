@@ -34,9 +34,8 @@ body {
   padding: 6px 10px;
   cursor: pointer;
 }
-
 .icon button:hover {
-  background-color: #DADCE0;
+  background-color: #dadce0;
   padding: 6px 10px;
   border-radius: 50%;
 }
@@ -421,7 +420,7 @@ body {
   border-radius: 50%;
 }
 .message_items .left .icons img:hover {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 .message_items .right {
   display: flex;
@@ -429,7 +428,6 @@ body {
   gap: 14px;
   width: 630px;
 }
-
 .message_items .right div {
   display: flex;
   justify-content: space-between;
@@ -447,7 +445,6 @@ body {
   height: 35px;
   width: 35px;
   padding: 6px;
-  
   cursor: pointer;
 }
 .message .sidebar img:hover {
